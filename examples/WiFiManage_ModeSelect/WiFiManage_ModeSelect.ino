@@ -27,8 +27,10 @@ void loop() {
 
   switch (counter) {
     case 1:
-      handleMode1();
+      
       break;
+    case 2:
+      handleMode1();
     case 3:
       config.handleClient();
       break;
